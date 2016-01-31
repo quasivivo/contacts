@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D83B8F677030AE73E36518 /* libPods-Contacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1789A2C45E7387182E8E82FA /* libPods-Contacts.a */; };
+		EBAA0DBA1C5D07CD002E02CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DB91C5D07CD002E02CE /* main.m */; };
+		EBAA0DC31C5D07CD002E02CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA0DC11C5D07CD002E02CE /* Main.storyboard */; };
+		EBAA0DC51C5D07CD002E02CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAA0DC41C5D07CD002E02CE /* Assets.xcassets */; };
+		EBAA0DD41C5D08AB002E02CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DD01C5D08AB002E02CE /* AppDelegate.m */; };
+		EBAA0DD51C5D08AB002E02CE /* WHContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DD31C5D08AB002E02CE /* WHContactsTableViewController.m */; };
+		EBAA0DD81C5D0B11002E02CE /* WHMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DD71C5D0B11002E02CE /* WHMenuTableViewController.m */; };
+		EBAA0DDE1C5D0E0A002E02CE /* WHSingleButtonActionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DDD1C5D0E0A002E02CE /* WHSingleButtonActionTableViewCell.m */; };
+		EBAA0DE11C5D0FC4002E02CE /* WHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DE01C5D0FC4002E02CE /* WHLoginViewController.m */; };
+		EBAA0DE41C5D1183002E02CE /* WHContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DE31C5D1183002E02CE /* WHContactTableViewCell.m */; };
+		EBAA0DE71C5D13DE002E02CE /* WHContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DE61C5D13DE002E02CE /* WHContactDetailViewController.m */; };
+		EBAA0DF21C5D2D31002E02CE /* WHContact.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DF11C5D2D31002E02CE /* WHContact.m */; };
+		EBAA0DF71C5D2D49002E02CE /* WHAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DF41C5D2D49002E02CE /* WHAuthManager.m */; };
+		EBAA0DF81C5D2D49002E02CE /* WHContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAA0DF61C5D2D49002E02CE /* WHContactManager.m */; };
+		EBE86C741C5D36980080590F /* WHContactAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE86C731C5D36980080590F /* WHContactAddress.m */; };
+		EBE86C7C1C5D43750080590F /* WHCustomAlert+UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE86C7B1C5D43750080590F /* WHCustomAlert+UIViewController.m */; };
+		EBE86C7F1C5D60C40080590F /* WHSimpleContactDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE86C7E1C5D60C40080590F /* WHSimpleContactDataTableViewCell.m */; };
+		EBE86C821C5D73460080590F /* WHContactAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE86C811C5D73460080590F /* WHContactAddressTableViewCell.m */; };
+		EBE86C851C5D783A0080590F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE86C831C5D783A0080590F /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1789A2C45E7387182E8E82FA /* libPods-Contacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Contacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9EDC919954DBFDE9127686 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		98580439483A6631BA84BFFD /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAA0DB51C5D07CD002E02CE /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAA0DB91C5D07CD002E02CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBAA0DC21C5D07CD002E02CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBAA0DC41C5D07CD002E02CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAA0DC91C5D07CD002E02CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAA0DCF1C5D08AB002E02CE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		EBAA0DD01C5D08AB002E02CE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		EBAA0DD21C5D08AB002E02CE /* WHContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHContactsTableViewController.h; sourceTree = "<group>"; };
+		EBAA0DD31C5D08AB002E02CE /* WHContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHContactsTableViewController.m; sourceTree = "<group>"; };
+		EBAA0DD61C5D0B11002E02CE /* WHMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHMenuTableViewController.h; sourceTree = "<group>"; };
+		EBAA0DD71C5D0B11002E02CE /* WHMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHMenuTableViewController.m; sourceTree = "<group>"; };
+		EBAA0DDC1C5D0E0A002E02CE /* WHSingleButtonActionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSingleButtonActionTableViewCell.h; path = Classes/TableViewCells/WHSingleButtonActionTableViewCell.h; sourceTree = "<group>"; };
+		EBAA0DDD1C5D0E0A002E02CE /* WHSingleButtonActionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSingleButtonActionTableViewCell.m; path = Classes/TableViewCells/WHSingleButtonActionTableViewCell.m; sourceTree = "<group>"; };
+		EBAA0DDF1C5D0FC4002E02CE /* WHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginViewController.h; sourceTree = "<group>"; };
+		EBAA0DE01C5D0FC4002E02CE /* WHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLoginViewController.m; sourceTree = "<group>"; };
+		EBAA0DE21C5D1183002E02CE /* WHContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHContactTableViewCell.h; path = Classes/TableViewCells/WHContactTableViewCell.h; sourceTree = "<group>"; };
+		EBAA0DE31C5D1183002E02CE /* WHContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHContactTableViewCell.m; path = Classes/TableViewCells/WHContactTableViewCell.m; sourceTree = "<group>"; };
+		EBAA0DE51C5D13DE002E02CE /* WHContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHContactDetailViewController.h; sourceTree = "<group>"; };
+		EBAA0DE61C5D13DE002E02CE /* WHContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHContactDetailViewController.m; sourceTree = "<group>"; };
+		EBAA0DF01C5D2D31002E02CE /* WHContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHContact.h; path = Classes/Models/WHContact.h; sourceTree = "<group>"; };
+		EBAA0DF11C5D2D31002E02CE /* WHContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHContact.m; path = Classes/Models/WHContact.m; sourceTree = "<group>"; };
+		EBAA0DF31C5D2D49002E02CE /* WHAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHAuthManager.h; path = Classes/ServiceManagers/WHAuthManager.h; sourceTree = "<group>"; };
+		EBAA0DF41C5D2D49002E02CE /* WHAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHAuthManager.m; path = Classes/ServiceManagers/WHAuthManager.m; sourceTree = "<group>"; };
+		EBAA0DF51C5D2D49002E02CE /* WHContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHContactManager.h; path = Classes/ServiceManagers/WHContactManager.h; sourceTree = "<group>"; };
+		EBAA0DF61C5D2D49002E02CE /* WHContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHContactManager.m; path = Classes/ServiceManagers/WHContactManager.m; sourceTree = "<group>"; };
+		EBE86C721C5D36980080590F /* WHContactAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHContactAddress.h; path = Classes/Models/WHContactAddress.h; sourceTree = "<group>"; };
+		EBE86C731C5D36980080590F /* WHContactAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHContactAddress.m; path = Classes/Models/WHContactAddress.m; sourceTree = "<group>"; };
+		EBE86C7A1C5D43750080590F /* WHCustomAlert+UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WHCustomAlert+UIViewController.h"; path = "Classes/Categories/WHCustomAlert+UIViewController.h"; sourceTree = "<group>"; };
+		EBE86C7B1C5D43750080590F /* WHCustomAlert+UIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WHCustomAlert+UIViewController.m"; path = "Classes/Categories/WHCustomAlert+UIViewController.m"; sourceTree = "<group>"; };
+		EBE86C7D1C5D60C40080590F /* WHSimpleContactDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSimpleContactDataTableViewCell.h; path = Classes/TableViewCells/WHSimpleContactDataTableViewCell.h; sourceTree = "<group>"; };
+		EBE86C7E1C5D60C40080590F /* WHSimpleContactDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSimpleContactDataTableViewCell.m; path = Classes/TableViewCells/WHSimpleContactDataTableViewCell.m; sourceTree = "<group>"; };
+		EBE86C801C5D73460080590F /* WHContactAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHContactAddressTableViewCell.h; path = Classes/TableViewCells/WHContactAddressTableViewCell.h; sourceTree = "<group>"; };
+		EBE86C811C5D73460080590F /* WHContactAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHContactAddressTableViewCell.m; path = Classes/TableViewCells/WHContactAddressTableViewCell.m; sourceTree = "<group>"; };
+		EBE86C841C5D783A0080590F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAA0DB21C5D07CD002E02CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D83B8F677030AE73E36518 /* libPods-Contacts.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A103BC3390D33EBBCD64BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98580439483A6631BA84BFFD /* Pods-Contacts.debug.xcconfig */,
+				3F9EDC919954DBFDE9127686 /* Pods-Contacts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBAA0DAC1C5D07CD002E02CE = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DB71C5D07CD002E02CE /* Contacts */,
+				EBAA0DB61C5D07CD002E02CE /* Products */,
+				04A103BC3390D33EBBCD64BA /* Pods */,
+				ED92E7897567EFBC0DA531A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAA0DB61C5D07CD002E02CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DB51C5D07CD002E02CE /* Contacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAA0DB71C5D07CD002E02CE /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DCF1C5D08AB002E02CE /* AppDelegate.h */,
+				EBAA0DD01C5D08AB002E02CE /* AppDelegate.m */,
+				EBAA0DC91C5D07CD002E02CE /* Info.plist */,
+				EBAA0DD11C5D08AB002E02CE /* ViewControllers */,
+				EBAA0DE81C5D1C8B002E02CE /* Service Managers */,
+				EBAA0DD91C5D0D75002E02CE /* Table View Cells */,
+				EBE86C781C5D430D0080590F /* Categories */,
+				EBAA0DEF1C5D2CD6002E02CE /* Models */,
+				EBAA0DDA1C5D0D94002E02CE /* Resources */,
+				EBAA0DB81C5D07CD002E02CE /* Supporting Files */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		EBAA0DB81C5D07CD002E02CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DB91C5D07CD002E02CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBAA0DD11C5D08AB002E02CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DD61C5D0B11002E02CE /* WHMenuTableViewController.h */,
+				EBAA0DD71C5D0B11002E02CE /* WHMenuTableViewController.m */,
+				EBAA0DDF1C5D0FC4002E02CE /* WHLoginViewController.h */,
+				EBAA0DE01C5D0FC4002E02CE /* WHLoginViewController.m */,
+				EBAA0DD21C5D08AB002E02CE /* WHContactsTableViewController.h */,
+				EBAA0DD31C5D08AB002E02CE /* WHContactsTableViewController.m */,
+				EBAA0DE51C5D13DE002E02CE /* WHContactDetailViewController.h */,
+				EBAA0DE61C5D13DE002E02CE /* WHContactDetailViewController.m */,
+			);
+			name = ViewControllers;
+			path = Classes/ViewControllers;
+			sourceTree = "<group>";
+		};
+		EBAA0DD91C5D0D75002E02CE /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DDC1C5D0E0A002E02CE /* WHSingleButtonActionTableViewCell.h */,
+				EBAA0DDD1C5D0E0A002E02CE /* WHSingleButtonActionTableViewCell.m */,
+				EBAA0DE21C5D1183002E02CE /* WHContactTableViewCell.h */,
+				EBAA0DE31C5D1183002E02CE /* WHContactTableViewCell.m */,
+				EBE86C7D1C5D60C40080590F /* WHSimpleContactDataTableViewCell.h */,
+				EBE86C7E1C5D60C40080590F /* WHSimpleContactDataTableViewCell.m */,
+				EBE86C801C5D73460080590F /* WHContactAddressTableViewCell.h */,
+				EBE86C811C5D73460080590F /* WHContactAddressTableViewCell.m */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		EBAA0DDA1C5D0D94002E02CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DDB1C5D0DA2002E02CE /* Storyboards */,
+				EBAA0DC41C5D07CD002E02CE /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EBAA0DDB1C5D0DA2002E02CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DC11C5D07CD002E02CE /* Main.storyboard */,
+				EBE86C831C5D783A0080590F /* Launch Screen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EBAA0DE81C5D1C8B002E02CE /* Service Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DF31C5D2D49002E02CE /* WHAuthManager.h */,
+				EBAA0DF41C5D2D49002E02CE /* WHAuthManager.m */,
+				EBAA0DF51C5D2D49002E02CE /* WHContactManager.h */,
+				EBAA0DF61C5D2D49002E02CE /* WHContactManager.m */,
+			);
+			name = "Service Managers";
+			sourceTree = "<group>";
+		};
+		EBAA0DEF1C5D2CD6002E02CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA0DF01C5D2D31002E02CE /* WHContact.h */,
+				EBAA0DF11C5D2D31002E02CE /* WHContact.m */,
+				EBE86C721C5D36980080590F /* WHContactAddress.h */,
+				EBE86C731C5D36980080590F /* WHContactAddress.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EBE86C781C5D430D0080590F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EBE86C7A1C5D43750080590F /* WHCustomAlert+UIViewController.h */,
+				EBE86C7B1C5D43750080590F /* WHCustomAlert+UIViewController.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		ED92E7897567EFBC0DA531A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1789A2C45E7387182E8E82FA /* libPods-Contacts.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAA0DB41C5D07CD002E02CE /* Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAA0DCC1C5D07CD002E02CE /* Build configuration list for PBXNativeTarget "Contacts" */;
+			buildPhases = (
+				6ED30843458F5A74B6FCEED5 /* Check Pods Manifest.lock */,
+				EBAA0DB11C5D07CD002E02CE /* Sources */,
+				EBAA0DB21C5D07CD002E02CE /* Frameworks */,
+				EBAA0DB31C5D07CD002E02CE /* Resources */,
+				748BC554989E3BCB7347F992 /* Embed Pods Frameworks */,
+				B8B0781CB86A947E12052757 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contacts;
+			productName = Contacts;
+			productReference = EBAA0DB51C5D07CD002E02CE /* Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAA0DAD1C5D07CD002E02CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "William Hannah";
+				TargetAttributes = {
+					EBAA0DB41C5D07CD002E02CE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EBAA0DB01C5D07CD002E02CE /* Build configuration list for PBXProject "Contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAA0DAC1C5D07CD002E02CE;
+			productRefGroup = EBAA0DB61C5D07CD002E02CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAA0DB41C5D07CD002E02CE /* Contacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAA0DB31C5D07CD002E02CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE86C851C5D783A0080590F /* Launch Screen.storyboard in Resources */,
+				EBAA0DC51C5D07CD002E02CE /* Assets.xcassets in Resources */,
+				EBAA0DC31C5D07CD002E02CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ED30843458F5A74B6FCEED5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		748BC554989E3BCB7347F992 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Contacts/Pods-Contacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B0781CB86A947E12052757 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Contacts/Pods-Contacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAA0DB11C5D07CD002E02CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE86C7C1C5D43750080590F /* WHCustomAlert+UIViewController.m in Sources */,
+				EBAA0DDE1C5D0E0A002E02CE /* WHSingleButtonActionTableViewCell.m in Sources */,
+				EBAA0DD81C5D0B11002E02CE /* WHMenuTableViewController.m in Sources */,
+				EBAA0DF81C5D2D49002E02CE /* WHContactManager.m in Sources */,
+				EBAA0DD51C5D08AB002E02CE /* WHContactsTableViewController.m in Sources */,
+				EBAA0DD41C5D08AB002E02CE /* AppDelegate.m in Sources */,
+				EBE86C821C5D73460080590F /* WHContactAddressTableViewCell.m in Sources */,
+				EBAA0DBA1C5D07CD002E02CE /* main.m in Sources */,
+				EBAA0DE11C5D0FC4002E02CE /* WHLoginViewController.m in Sources */,
+				EBAA0DE41C5D1183002E02CE /* WHContactTableViewCell.m in Sources */,
+				EBAA0DE71C5D13DE002E02CE /* WHContactDetailViewController.m in Sources */,
+				EBAA0DF71C5D2D49002E02CE /* WHAuthManager.m in Sources */,
+				EBE86C741C5D36980080590F /* WHContactAddress.m in Sources */,
+				EBAA0DF21C5D2D31002E02CE /* WHContact.m in Sources */,
+				EBE86C7F1C5D60C40080590F /* WHSimpleContactDataTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBAA0DC11C5D07CD002E02CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAA0DC21C5D07CD002E02CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE86C831C5D783A0080590F /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE86C841C5D783A0080590F /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBAA0DCA1C5D07CD002E02CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBAA0DCB1C5D07CD002E02CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAA0DCD1C5D07CD002E02CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98580439483A6631BA84BFFD /* Pods-Contacts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Contacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whannah.Contacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBAA0DCE1C5D07CD002E02CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9EDC919954DBFDE9127686 /* Pods-Contacts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Contacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whannah.Contacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAA0DB01C5D07CD002E02CE /* Build configuration list for PBXProject "Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAA0DCA1C5D07CD002E02CE /* Debug */,
+				EBAA0DCB1C5D07CD002E02CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAA0DCC1C5D07CD002E02CE /* Build configuration list for PBXNativeTarget "Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAA0DCD1C5D07CD002E02CE /* Debug */,
+				EBAA0DCE1C5D07CD002E02CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAA0DAD1C5D07CD002E02CE /* Project object */;
+}
